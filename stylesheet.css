@@ -23,4 +23,5 @@ table
 	border: 2px;
 	margin-left: auto;
 	margin-right: auto;
+	table-layout: fixed;
 }
