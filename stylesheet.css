@@ -24,6 +24,7 @@ table
 	margin-left: auto;
 	margin-right: auto;
 	table-layout: fixed;
+	border-collapese: collapse;
 }
 
 p
