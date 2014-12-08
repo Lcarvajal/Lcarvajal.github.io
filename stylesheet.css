@@ -3,17 +3,18 @@ body
 	background-color: #0B0B3B;
 }
 
-h1
-{
-	text-align: center;
-}
-
-image
+img
 {
 	width: 100px;
 	height: 100px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+
+h1
+{
+	text-align: center;
 }
 
 table
