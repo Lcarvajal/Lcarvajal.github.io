@@ -1,6 +1,11 @@
 body
 {
-	background-color: #0B0B3B;
+	background: #fff url('/profilePhotos/chicago_bean.jpg') top left repeat-x;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: Verdana, Arial, san-serif; font-size: 1em;
 }
 
 img
