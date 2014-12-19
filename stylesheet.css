@@ -22,6 +22,39 @@ body
 	opacity:0.9;
 }
 
+.topleft1
+{
+	background-image:url('/profilephotos/me2');
+	background-size:cover;
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:188px;
+	top:10px;
+}
+
+.topleft2
+{
+	background-image:url('/profilephotos/FSUfootball');
+	background-size:cover;
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:398px;
+	top:10px;
+}
+
+.top1
+{
+	background-image:url('/profilephotos/bean_background');
+	background-size:cover;
+	width:410px;
+	height:100px;
+	position:absolute;
+	left:188px;
+	top:210px;
+}
+
 h1
 {
 	text-align: center;
