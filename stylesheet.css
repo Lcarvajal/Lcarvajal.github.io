@@ -1,6 +1,6 @@
 body
 {
-	background-image: #fff url('/profilePhotos/gt3_background_2.jpg');
+	background-image:url('/profilePhotos/gt3_background_2.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
 	color: #000;
