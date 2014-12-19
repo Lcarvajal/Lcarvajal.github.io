@@ -28,6 +28,7 @@ h1
 	font-family: "Lucida Console", Monaco, monospace;
 }
 
+/* link styling */
 a:link
 {
 	color:#FFFFFF;
@@ -38,6 +39,7 @@ a:link
 	margin-left:0;
 	margin-right:0;
 	font-weight:bold;
+	text-decoration:none;
 }
 
 a:visited
@@ -50,6 +52,7 @@ a:visited
 	margin-left:0;
 	margin-right:0;
 	font-weight:bold;
+	text-decoration:none;
 }
 
 a:hover
@@ -62,4 +65,6 @@ a:hover
 	margin-left:0;
 	margin-right:0;
 	font-weight:bold;
+	text-decoration:none;
 }
+/* End of Link Styling */
