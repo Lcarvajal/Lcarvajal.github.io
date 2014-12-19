@@ -28,12 +28,38 @@ h1
 	font-family: "Lucida Console", Monaco, monospace;
 }
 
-p
+a:link
 {
-	text-align: center;
+	color:#FFFFFF;
+	font-family: "Lucida Console", Monaco, monospace;
+	display:block;
+	margin-top:1.33em;
+	margin-bottom:1.33em;
+	margin-left:0;
+	margin-right:0;
+	font-weight:bold;
 }
 
-a
+a:visited
 {
-	text-align: center;
+	color:#F0F0F0;
+	font-family: "Lucida Console", Monaco, monospace;
+	display:block;
+	margin-top:1.33em;
+	margin-bottom:1.33em;
+	margin-left:0;
+	margin-right:0;
+	font-weight:bold;
+}
+
+a:hover
+{
+	color:#A80000
+	font-family: "Lucida Console", Monaco, monospace;
+	display:block;
+	margin-top:1.33em;
+	margin-bottom:1.33em;
+	margin-left:0;
+	margin-right:0;
+	font-weight:bold;
 }
