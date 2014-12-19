@@ -10,31 +10,13 @@ body
 	font-family: Verdana, Arial, san-serif; font-size: 1em;
 }
 
-.top 
-{
-	position:absolute;
-	left:0;
-	right:0;
-	height:92px;
-}
-
 .left
 {
 	position:absolute;
-	left:0;
-	bottom:0;
-	top:92px;
+	left:5px;
+	top:5px; 
 	width:178px;
-}
-
-.main
-{
-	position:absolute;
-	left:178px;
-	right:0;
-	bottom:0;
-	top:92px;
-	float:left;
+	padding:10px;
 }
 
 h1
