@@ -22,6 +22,11 @@ body
 	color:white;
 }
 
+li
+{
+	display:inline;
+}
+
 .topleft1
 {
 	background-image:url('/profilephotos/me2');
