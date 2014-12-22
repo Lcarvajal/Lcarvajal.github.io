@@ -10,16 +10,16 @@ body
 	font-family: Verdana, Arial, san-serif; font-size: 1em;
 }
 
-.left
+.navigation_bar
 {
 	position:absolute;
 	left:10px;
+	right:10px;
 	top:10px; 
-	width:178px;
+	height:60px;
 	padding:10px;
 	background-color:black;
 	color:white;
-	opacity:0.9;
 }
 
 .topleft1
