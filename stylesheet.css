@@ -1,8 +1,6 @@
 body
 {
-	background-image:url('profilePhotos/gt3_background_2.jpg');
-	background-repeat:no-repeat;
-	background-size:cover;
+	background-image:url('profilePhotos/subtle_background.jpg');
 	color: #000;
 	margin: 0;
 	padding: 0;
@@ -12,6 +10,8 @@ body
 
 .navigation_bar
 {
+	left:5px;
+	right:5px;
 	position:center;
 	height:60px;
 	background-color:black;
@@ -31,37 +31,34 @@ li
 	float:left;
 }
 
-.topleft1
-{
-	position:absolute;
-	left:188px;
-	top:10px;
-	width:200px;
-	height:200px;
-	background-image:url('profilePhotos/me2.jpg');
-	background-size:cover;
-}
-
-.topleft2
-{
-	background-image:url('profilePhotos/FSUfootball.jpg');
-	background-size:cover;
-	width:200px;
-	height:200px;
-	position:absolute;
-	left:398px;
-	top:10px;
-}
-
 .top1
 {
-	background-image:url('profilePhotos/bean_background.jpg');
-	background-size:cover;
-	width:410px;
-	height:100px;
+	width:200px;
+	height:200px;
+	background-color: #000000;
 	position:absolute;
-	left:188px;
-	top:210px;
+	left:10px;
+	top:70px;
+}
+
+.top2
+{
+	background-color:#000000;
+	width:405px;
+	height:200px;
+	position:absolute;
+	left:215px;
+	top:70px;
+}
+
+.mid1
+{
+	background-color:#000000;
+	width:400px;
+	height:400px;
+	position:absolute;
+	left:10px;
+	top:275px;
 }
 
 /* link styling */
