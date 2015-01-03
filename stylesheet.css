@@ -12,53 +12,9 @@ body
 {
 	left:5px;
 	right:5px;
-	position:center;
 	height:60px;
 	background-color:black;
 	color:white;
-}
-
-ul
-{
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	overflow:hidden;
-}
-
-li
-{
-	float:left;
-}
-
-.top1
-{
-	width:200px;
-	height:200px;
-	background-color: #000000;
-	position:absolute;
-	left:10px;
-	top:70px;
-}
-
-.top2
-{
-	background-color:#000000;
-	width:405px;
-	height:200px;
-	position:absolute;
-	left:215px;
-	top:70px;
-}
-
-.mid1
-{
-	background-color:#000000;
-	width:400px;
-	height:400px;
-	position:absolute;
-	left:10px;
-	top:275px;
 }
 
 /* link styling */
@@ -107,3 +63,64 @@ a:hover
 	width:120px;
 }
 /* End of Link Styling */
+
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+li
+{
+	float:left;
+}
+
+.top1
+{
+	width:200px;
+	height:200px;
+	background-color: #000000;
+	position:absolute;
+	left:10px;
+	top:70px;
+}
+
+.top2
+{
+	background-color:#000000;
+	width:405px;
+	height:200px;
+	position:absolute;
+	left:215px;
+	top:70px;
+}
+
+.mid1
+{
+	background-color:#000000;
+	width:400px;
+	height:400px;
+	position:absolute;
+	left:10px;
+	top:275px;
+}
+
+.mid2
+{
+	width:205px;
+	height:205px;
+	position:absolute;
+	left:415px;
+	top:275px;
+}
+
+.mid3
+{
+	width:205px;
+	height:205px;
+	position:absolute;
+	left:625px;
+	top:275px;
+}
