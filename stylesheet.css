@@ -45,7 +45,7 @@ body
 	left:0px;
 	height:40px;
 	width:100%;
-	z-index:1;
+	z-index:2;
 }
 /*End of white dynamic border */
 
@@ -65,9 +65,10 @@ body
 	position:absolute;
 	width:100%;
 	height:6%;
+	max-height:89%;
 	left:0px;
 	bottom:-2px;
-	z-index:2;
+	z-index:3;
 	background-color: white;
 }
 
@@ -79,7 +80,7 @@ body
 	top:0px;
 	width:100%;
 	height:100%;
-	z-index:2;
+	z-index:1;
 }
 
 h1
@@ -120,12 +121,42 @@ li
 	display:inline;
 }
 
-a
+a:link
+{
+	text-decoration:none;
+	font-weight:bold;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#000000;
+	display:inline-block;
+	width:100px;
+}
+
+a:visited
+{
+	text-decoration:none;
+	font-weight:bold;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#000000;
+	display:inline-block;
+	width:100px;
+}
+
+a:hover
 {
 	text-decoration:none;
 	font-weight:bold;
 	font-family:Verdana, Geneva, sans-serif;
 	color:#782F40;
 	display:inline-block;
-	width:90px;
+	width:100px;
+}
+
+a:active
+{
+	text-decoration:none;
+	font-weight:bold;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#782F40;
+	display:inline-block;
+	width:100px;
 }
