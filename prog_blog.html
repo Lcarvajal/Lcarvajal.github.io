@@ -6,10 +6,56 @@
 	<title>Prog Blog</title>
 </head>
 
-<div class="First Post">
-	<h1>First Post!</h1>
-	<p>how do I look?</p>
+<div class="upper_background">
+	<h1>Lukas Carvajal</h1>
 </div>
+
+<div class="lower_background">
+	<div class="first_post">
+		<h2 style="text-align:center">Why can't IO operator overloads be written as member functions?</h2>
+		
+		<p style="text-indent: 50px">IO operator overloads cannot be written as member functions, because of their binary property. This means they need to take two operands in order to perform. Let's look at an example of a simple output statement to better explain this property:</p>
+
+		<p style="text-align:center">cout &lt&lt &quotHello &quot &lt&lt &quotworld! &quot &lt&lt &quotWhat's up?!&quot;;</p>
+
+		<p style="text-indent: 50px">In this example, the first step a compiler takes in computing this is by first executing</p>
+
+		<p style="text-align:center">cout &lt&lt &quotHello &quot;;</p>
+
+		<p style="text-indent: 50px">Here cout serves as the l-value and &quotHello &quot serves as the r-value. Hence the binary operation. The compiler then stores &quotHello &quot into the cout and does the operation again with the next operand:</p>
+
+		<p style="text-align:center">cout &lt&lt &quotworld! &quot;;	//where cout contains &quotHello &quot</p>
+
+		<p>then the next:</p>
+
+		<p>cout &lt&lt &quotWhat's up?!&quot;;	//where cout contains &quotHello World!&quot</p>
+
+		<p style="text-indent: 50px">Finally, we reach a point where cout contains the entire line of code and the program displays:</p>
+
+		<p style="text-align:center">Hello World! What's up?!</p>
+
+		<p style="text-indent: 50px">Note that cout is of type ostream, so whenever using the &lt&lt operator, C++ takes an l-value of type ostream and an r-value of whatever type is being displayed (string in the above example). If we were to write the &lt&lt operator as a member function, we would have an object from the created class as the calling object and ostream as the parameter we are passing. Using cout  as an r-value.This creates a problem, because we have taken away this recursive property of the &lt&lt operator and so we would not be able to use the object like in the example above. For example:</p>
+
+		<p style="text-align:center">cout &lt&lt &quotHello &quot &lt&lt &ltobject&gt &lt&lt &quotlalala&quot;;</p>
+
+		<p style="text-indent: 50px">would not work. Because of this, we write the IO operator overloads as friend functions so that we can have an l-value of type ostream and an r-value of the class type. We also pass the two by reference to hold that recursive property.</p>
+	</div>
+
+	<div class="description">
+		<p>A place to explain some of the programming concepts I encounter. I am currently working with:</p>
+		<ul>
+			<li>C++</li>
+			<li>Java</li>
+			<li>html/css</li>
+			<li>JavaScript</li>
+			<li>PHP</li>
+		<ul>
+		
+	</div>
+</div>
+
+
+
 
 
 </html>
