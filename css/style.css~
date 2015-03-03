@@ -37,6 +37,7 @@ h3 {
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: normal;
 	font-size: 16px;
+	color: #333333;
 	text-align: center;
 	margin: 5px 0;
 	padding: 0;
@@ -82,7 +83,14 @@ a.rpanel:hover{ color: #fff; }
 	margin-top:6px;
 }
 
-#logo a { color:#0066FF; text-decoration: none; font-size: 20px; margin-top: 18px; font-family: 'Fira Sans', sans-serif; font-weight: bold;}
+#logo a { 
+	color:#0066FF; 
+	text-decoration: none; 
+	font-size: 20px; 
+	margin-top: 18px; 
+	font-family: 'Fira Sans', sans-serif; 
+	font-weight: bold;
+}
 
 /*= QUOTES AND SOME ELEMENTS
 --------------------------------------------------------*/
@@ -123,7 +131,8 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 --------------------------------------------------------*/
 
 #slide1, #slide2, #slide3, #slide4, #slide5{ 
-	width: 100%; 
+	width: 100%;
+	text-align:center; 
 }
 #slide2, #slide3, #slide4, #slide5{ 
 	height: 120%; 
@@ -131,7 +140,6 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide1{
 	/*background:url('../img/slide1.jpg') 50% 0 no-repeat fixed; */
 	background-color:#0066FF;
-	text-align:center;
 	color: #fff;
 	height: 600px;
 	margin: 0;
@@ -145,7 +153,6 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide2{
 	background-color: #fff;
-	text-align:center;
 	color: #333333;
 	margin: 0 auto;
 	overflow: hidden;
@@ -159,7 +166,6 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide3{
 	background-color: #FF4719;
-	text-align:center;
 	height:500px;
 	color: black;
 	padding: 170px 0 0 0;	
@@ -167,12 +173,12 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide4{
 	background-color: #fff;
-	color: #333333;
+
 	padding: 200px 0;
 }
 
 #slide5{
-	background-color:#66FFFF;
+	background-color:#990099;
 	margin: 0 auto;
 	padding: 250px 0;
 	color: #fff;

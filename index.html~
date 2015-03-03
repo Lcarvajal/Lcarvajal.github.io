@@ -92,9 +92,9 @@ $(document).ready(function() {
 <div id="slide3">
 	<div class="content">
 		<div class="quotes_container">
-			<img style="height:100px; margin-top:-40px; margin-bottom:20px;" src="img/triathlon.png" />
-			<h2 >Athlete</h2>
-			<h3 style=" color:white">[ath-leet]</h3>
+			<img style="height:100px; margin-top:-35px; margin-bottom:20px;" src="img/triathlon.png" />
+			<h2>athlete</h2>
+			<h3>[ath-leet]</h3>
 			<h2 style="color:black">There is nothing like a 90 minute game or 80 mile bike ride to get my Sunday mornings started.</h2>
 			<p style="color:white; font-size:25px; margin-top:70px; margin-bottom:20px;">#footballer #triathlete</p>
 		</div> 
@@ -105,7 +105,10 @@ $(document).ready(function() {
 <div id="slide4">
 	<div class="content">
 		<div class="quotes_container">
-			<h3 class="quotes">Under Construction...</h3>
+			<img style="height:200px; margin-top:-100px;" src="img/piano.png" alt="piano icon"/>
+			<h2 style="color:black">musician</h2>
+			<h3>[myoo-zish-uh n]</h3>
+			<p style="color:black">Hello World</p>
 		</div> 
 	</div> 
 </div> 
