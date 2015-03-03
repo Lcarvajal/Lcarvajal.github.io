@@ -122,7 +122,12 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 /*= SLIDES STYLING
 --------------------------------------------------------*/
 
-#slide1, #slide2{ width: 100%; }
+#slide1, #slide2, #slide3, #slide4, #slide5{ 
+	width: 100%; 
+}
+#slide2, #slide3, #slide4, #slide5{ 
+	height: 120%; 
+}
 #slide1{
 	/*background:url('../img/slide1.jpg') 50% 0 no-repeat fixed; */
 	background-color:#0066FF;
@@ -134,11 +139,14 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background-size: cover;
 }
 
+#slide1 img{
+	margin-top:100px;
+}
+
 #slide2{
 	background-color: #fff;
 	text-align:center;
 	color: #333333;
-	height: 101%;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 200px 0;
@@ -150,25 +158,22 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide3{
-	background-color: #00FF11;
+	background-color: #FF4719;
+	text-align:center;
+	height:500px;
 	color: black;
-	height: 600px;
 	padding: 170px 0 0 0;	
-	background-size: cover;
 }
 
 #slide4{
 	background-color: #fff;
 	color: #333333;
-	height: 350px;
 	padding: 200px 0;
 }
 
 #slide5{
-	background-color:#880000;
-	height: 200px;
+	background-color:#66FF99;
 	margin: 0 auto;
 	padding: 250px 0;
 	color: #fff;
-	background-size: cover;
 }
