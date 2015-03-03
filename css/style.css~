@@ -140,7 +140,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide1 img{
-	margin-top:100px;
+	margin-top:80px;
 }
 
 #slide2{
@@ -172,7 +172,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide5{
-	background-color:#66FF99;
+	background-color:#66FFFF;
 	margin: 0 auto;
 	padding: 250px 0;
 	color: #fff;

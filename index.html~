@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
 	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-       <title>Lukas Carvajal</title>
-       <link rel="stylesheet" href="css/style.css"/>
+	<title>Lukas Carvajal</title>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
 	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 
 <link href='http://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
@@ -49,9 +50,9 @@ $(document).ready(function() {
 <body>
 <!----- HEADER START--->   
 <header id="header">
-<div class="content">
+
 <div id="logo"><a href="">L U K A S  C A R V A J A L</a></div>
-</div>
+
 </header>	
 <!----- HEADER END--->   
 
@@ -93,8 +94,9 @@ $(document).ready(function() {
 		<div class="quotes_container">
 			<img style="height:100px; margin-bottom:20px;" src="img/triathlon.png" />
 			<h2 >Athlete</h2>
-			<h3 style="margin-bottom:-15px; color:white">[ath-leet]</h3>
-			<p style="color:black">There is nothing better than a 90 minute game or 80 mile bike ride, to get my Sunday mornings started.</p>
+			<h3 style=" color:white">[ath-leet]</h3>
+			<h2 style="color:black">There is nothing like a 90 minute game or 80 mile bike ride to get my Sunday mornings started.</h2>
+			<p style="color:white; font-size:25px; margin-top:70px;">#footballer #triathlete</p>
 		</div> 
 	</div> 
 </div> 
