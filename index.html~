@@ -108,7 +108,10 @@ $(document).ready(function() {
 			<img style="height:200px; margin-top:-100px;" src="img/piano.png" alt="piano icon"/>
 			<h2 style="color:black">musician</h2>
 			<h3>[myoo-zish-uh n]</h3>
-			<p style="color:black">Hello World</p>
+			<p style="color:black; margin-bottom:70px;"><span style="font-style:italic;">"It's like a whole orchestra, the piano for me."</span> <br>- Dave Brubeck</p>
+			<img style="height:80px" src="img/chopin.png" alt="chopin image" />
+			<img style="height:80px; margin-left:20px; margin-right:20px;" src="img/brubeck.png" alt="brubeck image" />
+			<img style="height:80px;" src="img/camilo.png" alt="camilo image" />
 		</div> 
 	</div> 
 </div> 
