@@ -5,41 +5,8 @@
 	<title>Lukas Carvajal</title>
 	<link rel="stylesheet" href="css/style.css"/>
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
-	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	
 
-<link href='http://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
-	<script>
-   
-<!----- JQUERY FOR SLIDING NAVIGATION --->   
-$(document).ready(function() {
-
-	$('a[href*=#]').each(function() {
-
-		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-			&& location.hostname == this.hostname 
-			&& this.hash.replace(/#/,'') ) {
-
-      			var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
-      			var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-
-			if ($target) {
-
-         			var targetOffset = $target.offset().top;
-
-<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
-				
-				$(this).click(function() {
-					
-					$("#nav li a").removeClass("active");
-					$(this).addClass('active');
-					$('html, body').animate({scrollTop: targetOffset}, 1000);
-					
-					return false;
-				});
-			}
-    		}
-  	});
-});
 
 
 </script>
@@ -118,7 +85,7 @@ $(document).ready(function() {
 	
 	
 	<div id="slide5">
-		<h3 style="padding:5px">lukascarvajal[at]gmail[dot]com</h3>
+		<h3 style="padding:5px">l u k a s c a r v a j a l [ a t ] g m a i l [ d o t ] c o m</h3>
 		<!-- <a style="text-decoration:none" href="https://github.com/Lcarvajal/Lcarvajal.github.io"><h3>Site built by Me :)</h3> -->
 	</div> 
 	
