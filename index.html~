@@ -118,12 +118,9 @@ $(document).ready(function() {
 	
 	
 	<div id="slide5">
-
-		    <img style="height:400px; float:left; top:10px" src="img/me_admiring.png" alt="me image" />
-
-		
-
-    </div> 
+		<h3 style="padding:5px">lukascarvajal[at]gmail[dot]com</h3>
+		<!-- <a style="text-decoration:none" href="https://github.com/Lcarvajal/Lcarvajal.github.io"><h3>Site built by Me :)</h3> -->
+	</div> 
 	
 <!----- SLIDES END --->
 

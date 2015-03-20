@@ -179,8 +179,6 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide5{
 	background-color:#009933;	
-	margin: 0 auto;
-	height:150px;
-	padding: 250px 0;
+	height:30px;
 	color: #fff;
 }
