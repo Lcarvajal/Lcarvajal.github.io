@@ -72,8 +72,10 @@ p {
 #s1 .content { top: 5%;}
 
 #Me { 
-	height: 37%;
-	max-width: 150px; }
+
+	max-width: 25%;
+	max-height: 37%;
+}
 
 .arrows {
 	position: absolute;
@@ -86,6 +88,7 @@ p {
 #a1, #a2, #a3 {
 	position: relative;
 	height: 100%;
+	max-width: 22%;
 }
 #a2{
 	margin-left: -1%;
@@ -110,10 +113,11 @@ p {
 	top: 3%;
 	height: 9%;
 }
+#s2links img { max-width: 25%; }
 #s2l2 { 
 	height: 100%; 
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 #s2l1, #s2l3
 { height: 60%; }	
@@ -129,7 +133,9 @@ p {
 
 #s3 .content { top: 17%; }
 
-#triathlon { height: 14%; }
+#triathlon { 
+	height: 14%;
+	max-width: 99%; }
 
 /* Slide 4 Music*/
 #s4 {
@@ -148,6 +154,7 @@ p {
 
 .musicians img {
 	height:100%;
+	max-width:30%;
 	margin-left: 1%;
 	margin-right: 1%;
 }
@@ -168,6 +175,7 @@ p {
 
 #s5links ul {
 	list-style-type: none;
+	font-size: 2vw;
 }
 
 #s5links li {
@@ -177,19 +185,22 @@ p {
 #s5left {
 	position: absolute;
 	bottom: 0%;
-	left: 10%;
+	left: 0px;
 	height: 55%;
+	width: 60%;
+	text-align: left;
 }
 
 #s5left img {
 	height: 100%;
+	max-width: 100%;
 }
 
 #s5right {
 	border: solid;
 	border-color: #FFFFFF;	
 	position: absolute;
-	right: 5%;
+	width: 30%;
 	left: 65%;
 	bottom: 5%;
 	top: 5%;	
