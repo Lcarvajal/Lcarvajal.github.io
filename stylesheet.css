@@ -212,7 +212,6 @@ a:hover {
 	padding-bottom: 2%;
 }
 
-
 #s5left {
 	position: absolute;
 	bottom: 0%;
@@ -243,6 +242,6 @@ a:hover {
 }
 
 #s5right p { 
-	color:white;
+	color:#E6E6E6;
 	font-size: 2vw;	
 }
