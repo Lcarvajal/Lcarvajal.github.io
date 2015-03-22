@@ -1,95 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Lukas Carvajal</title>
-	<link rel="stylesheet" href="css/style.css"/>
-	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
-	
-
-
-
-</script>
-
-
- </head> 
-	
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Lukas Carvajal</title>
+<link rel="stylesheet" href="stylesheet.css"/>
+<link rel="shortcut icon" type="image/x-icon" href="../Lcarvajal.github.io/img/favicon.ico"/>
+<link href='http://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
+</head>
 <body>
-<!----- HEADER START--->   
+
 <header id="header">
 
-<div id="logo"><a href="">L U K A S  C A R V A J A L</a></div>
+<div id="logo">L U K A S  C A R V A J A L</div>
 
-</header>	
-<!----- HEADER END--->   
+</header>
 
-<!----- SLIDES START --->   	
-<div id="slide1">
+<!-- Slides -->
+
+<div class="slide" id="s1">
+
 	<div class="content">
-		<img style="height:400px; margin-top:-150px;" src="img/me.png" alt="me!"/>
+		<img id="Me" src="me.png" alt="me!"/>
 		<h1>L U K A S</h1>
 		<h3>[loo-cas]</h3>
 		<p>scroll down to see what defines me</p>
-		<img id="arrow" src="img/arrow.png" alt="arrow icon"/>
-		<img id="arrow" src="img/arrow.png" alt="arrow icon"/>
-		<img id="arrow" src="img/arrow.png" alt="arrow icon"/>
-	</div> 
-</div> 
-
-<div id="slide2">
-	<div class="content" >
-           
-		<div class="quotes_container">
-			<img style="margin-top:-120px; margin-bottom:5px;" src="img/business.png" alt="business icon" />			
-
-			<h1 style="color:black">professional</h1>
-			<h3>[pruh-fesh-uh-nl]</h3>
-			
-			<p style="color:black; text-align:center;">With ambitions of becoming a <span style="font-weight:bold">great</span> CTO, I spend my time coding, studying management techniques, and improving my ability to communicate effectively with people.</p>
-
-			<a href="https://github.com/Lcarvajal" target="_blank"><img style="height:40px;" src="img/github.png" alt="github icon" /></a>
-			<a href="https://docs.google.com/document/d/1yRFm5vkcdX4Hm2zms-f5hGM3iHsVluKlkbGG5qhVb4I/edit?usp=sharing" target="_blank"><img style="height:60px; margin-left:40px; margin-right:40px;" src="img/android.png" alt="android icon"/></a>
-			<a href="http://www.linkedin.com/in/lukascarvajal" target="_blank"><img style="height:40px;" src="img/linkedin.png" alt="linkedin icon"/></a>
-			
-		</div> 
-	</div> 
-</div> 
+	</div>
 	
-	
-<div id="slide3">
+	<div class="arrows">
+		<img id="a1" src="img/arrow.png" alt="arrow icon"/>
+		<img id="a2" src="img/arrow.png" alt="arrow icon"/>
+		<img id="a3" src="img/arrow.png" alt="arrow icon"/>
+	</div>
+</div>
+
+<div class="slide" id="s2">
+
 	<div class="content">
-		<div class="quotes_container">
-			<img style="height:100px; margin-top:-35px; margin-bottom:20px;" src="img/triathlon.png" />
-			<h2>athlete</h2>
-			<h3>[ath-leet]</h3>
+		<img src="img/business.png" alt="business icon" />			
+
+		<h1 >professional</h1>
+		<h3>[pruh-fesh-uh-nl]</h3>
+
+		<div class="description">	
+			<p>With ambitions of becoming a <span style="font-weight:bold">great</span> CTO, I spend my time coding, studying management techniques, and improving my ability to communicate effectively with people.</p>
+		</div>
+
+		<div id="s2links">
+			<a href="https://github.com/Lcarvajal" target="_blank"><img id="s2l1" src="img/github.png" alt="github icon" /></a>
+			<a href="https://docs.google.com/document/d/1yRFm5vkcdX4Hm2zms-f5hGM3iHsVluKlkbGG5qhVb4I/edit?usp=sharing" target="_blank"><img id="s2l2" src="img/android.png" alt="android icon"/></a>
+			<a href="http://www.linkedin.com/in/lukascarvajal" target="_blank"><img  id="s2l3" src="img/linkedin.png" alt="linkedin icon"/></a>
+		</div>
+
+</div>
+
+<div class="slide" id="s3">
+	<div class="content">
+		<img id="triathlon" src="img/triathlon.png" />
+		<h2 style="padding-top:2%">athlete</h2>
+		<h3>[ath-leet]</h3>
+		<div class="description">		
 			<h2 style="color:black">There is nothing like a 90 minute game or 80 mile bike ride to get my Sunday mornings started.</h2>
-			<p style="color:white; font-size:25px; margin-top:70px; margin-bottom:20px;">#footballer #triathlete</p>
-		</div> 
-	</div> 
-</div> 
-	
-	
-<div id="slide4">
+		</div>
+		<p>#footballer #triathlete</p>
+	</div>
+</div>
+
+<div class="slide" id="s4">
 	<div class="content">
-		<div class="quotes_container">
-			<img style="height:200px; margin-top:-100px;" src="img/piano.png" alt="piano icon"/>
-			<h2 style="color:black">musician</h2>
-			<h3>[myoo-zish-uh n]</h3>
-			<p style="color:black; margin-bottom:80px;"><span style="font-style:italic;">"It's like a whole orchestra, the piano for me."</span> <br>- Dave Brubeck</p>
-			<img style="height:80px" src="img/chopin.png" alt="chopin image" />
-			<img style="height:80px; margin-left:20px; margin-right:20px;" src="img/brubeck.png" alt="brubeck image" />
-			<img style="height:80px;" src="img/camilo.png" alt="camilo image" />
-		</div> 
-	</div> 
-</div> 
-	
-	
-	<div id="slide5">
-		<h3 style="padding:5px">l u k a s c a r v a j a l [ a t ] g m a i l [ d o t ] c o m</h3>
-		<!-- <a style="text-decoration:none" href="https://github.com/Lcarvajal/Lcarvajal.github.io"><h3>Site built by Me :)</h3> -->
-	</div> 
-	
-<!----- SLIDES END --->
+		<img style="height:200px; margin-top:-100px;" src="img/piano.png" alt="piano icon"/>
+		<h2 style="color:black">musician</h2>
+		<h3>[myoo-zish-uh n]</h3>
+		<p style="color:black; margin-bottom:80px;"><span style="font-style:italic;">"It's like a whole orchestra, the piano for me."</span> <br>- Dave Brubeck</p>
+
+		<div class="musicians">	
+			<img src="img/chopin.png" alt="chopin image" />
+			<img src="img/brubeck.png" alt="brubeck image" />
+			<img src="img/camilo.png" alt="camilo image" />
+		</div>
+	</div>
+</div>
+
+<div class="slide" id="s5">
+
+	<div id="s5links">
+		<ul>
+			<li>https://github.com/Lcarvajal</li>
+			<li>https://www.facebook.com/NoLimits94</li>
+			<li>https://www.linkedin.com/in/lukascarvajal</li>
+		</ul>
+	</div>
+
+	<div id="s5left">
+		<img src="img/me_admiring.png" alt="me wondering" />
+	</div>
+
+	<div id="s5right">
+		<h2>About Me</h2>
+	</div>
+</div>
 
 </body>
 </html>

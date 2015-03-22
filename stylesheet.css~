@@ -65,15 +65,14 @@ p {
 /* Slide 1 Me */
 #s1 {
 	top: 0px;
-	height: 160%;	
+	height: 160%;
+	max-width: 150px;	
 	background-color: #0066FF;
 }
 
 #s1 .content { top: 5%;}
 
-#Me { 
-	height: 37%;
-	max-width: 150px; }
+#Me { height: 37%; }
 
 .arrows {
 	position: absolute;
