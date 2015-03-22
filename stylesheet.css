@@ -10,9 +10,9 @@ body {
 #header { 
 	width: 100%; 	
 	position: fixed;
-	margin-top: 10px;
+	margin-top: 1%;
 	color: #0066FF;
-	font-size:20px;
+	font-size: 1vw;
 	font-weight: bold;
 	z-index: 2;
 }
@@ -62,6 +62,26 @@ p {
 	width:100%;
 }
 
+a:link {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+a:active {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+a:hover { 
+	color: #83FF59;
+	font-weight: bold;
+}
+
 /* Slide 1 Me */
 #s1 {
 	top: 0px;
@@ -74,20 +94,21 @@ p {
 #Me { 
 
 	max-width: 25%;
-	max-height: 37%;
+	max-height: 40%;
+	z-index: 2;
 }
 
 .arrows {
 	position: absolute;
 	height:14%;
 	width:100%;
-	top: 65%;
+	top: 70%;
 }
 
 
 #a1, #a2, #a3 {
 	position: relative;
-	height: 100%;
+	max-height: 100%;
 	max-width: 22%;
 }
 #a2{
@@ -111,16 +132,19 @@ p {
 #s2links {
 	position: relative;
 	top: 3%;
-	height: 9%;
+	height: 8%;
+	width: 100%;
 }
-#s2links img { max-width: 25%; }
+#s2links img { 
+	max-width: 30%;
+	max-height: 100%; }
 #s2l2 { 
 	height: 100%; 
 	margin-left: 2%;
 	margin-right: 2%;
 }
 #s2l1, #s2l3
-{ height: 60%; }	
+{ height: 50%; }	
 
 /* Slide 3 Triathlon*/
 #s3 {
@@ -131,11 +155,14 @@ p {
 
 #s3 h3 { padding: 1%; }
 
+#s3 a:hover { color: #333333; }
+
 #s3 .content { top: 17%; }
 
 #triathlon { 
-	height: 14%;
-	max-width: 99%; }
+	max-height: 20%;
+	max-width: 80%;
+	 }
 
 /* Slide 4 Music*/
 #s4 {
@@ -153,8 +180,10 @@ p {
 .musicians { height: 10%; }
 
 .musicians img {
-	height:100%;
-	max-width:30%;
+	max-height:100%;
+	max-width:31%;
+}
+#brubeck {
 	margin-left: 1%;
 	margin-right: 1%;
 }
@@ -168,7 +197,7 @@ p {
 
 #s5links {
 	position: absolute;
-	left: 5%;
+	left: 0%;
 	top: 5%;
 	text-align:left;
 }
@@ -179,29 +208,33 @@ p {
 }
 
 #s5links li {
-	padding: 1%;
+	padding-bottom: 2%;
 }
+
 
 #s5left {
 	position: absolute;
 	bottom: 0%;
 	left: 0px;
 	height: 55%;
-	width: 60%;
+	width: 55%;
 	text-align: left;
 }
 
 #s5left img {
-	height: 100%;
+	max-height: 100%;
 	max-width: 100%;
+	position: absolute;
+	bottom:0px;
+	left:0px;
 }
 
 #s5right {
 	border: solid;
 	border-color: #FFFFFF;	
 	position: absolute;
-	width: 30%;
-	left: 65%;
+	width: 40%;
+	left: 55%;
 	bottom: 5%;
 	top: 5%;	
 }
