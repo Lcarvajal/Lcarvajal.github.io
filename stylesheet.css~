@@ -197,14 +197,15 @@ a:hover {
 
 #s5links {
 	position: absolute;
-	left: 0%;
-	top: 5%;
+	top: 7%;
+	left: 2%;
 	text-align:left;
 }
 
 #s5links ul {
 	list-style-type: none;
-	font-size: 2vw;
+	font-size: 1.7vw;
+	padding: 0px;
 }
 
 #s5links li {
@@ -217,25 +218,31 @@ a:hover {
 	bottom: 0%;
 	left: 0px;
 	height: 55%;
-	width: 55%;
+	width: 40%;
 	text-align: left;
 }
 
 #s5left img {
 	max-height: 100%;
 	max-width: 100%;
+	position: absolute;
 	bottom:0px;
 	left:0px;
 }
 
 #s5right {
 	border: solid;
-	border-color: #FFFFFF;	
+	border-color: #FFFFFF;
+	border-radius: 2%;	
 	position: absolute;
-	width: 40%;
-	left: 55%;
-	bottom: 5%;
-	top: 5%;	
+	width: 47%;
+	left: 48%;
+	top: 10%;
+	padding: 1%;	
+	text-align: left;
 }
 
-
+#s5right p { 
+	color:white;
+	font-size: 2vw;	
+}
