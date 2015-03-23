@@ -236,7 +236,7 @@ a:hover {
 	position: absolute;
 	width: 47%;
 	left: 48%;
-	top: 10%;
+	top: 5%;
 	padding: 1%;	
 	text-align: left;
 }
