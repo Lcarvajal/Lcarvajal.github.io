@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: #009933;
 	text-align:center;
 	color: white;
 	font-family: 'Fira Sans', sans-serif;
@@ -85,7 +85,8 @@ a:hover {
 /* Slide 1 Me */
 #s1 {
 	top: 0px;
-	height: 160%;	
+	height: 160%;
+	max-height: 1100px;	
 	background-color: #0066FF;
 }
 
@@ -121,6 +122,7 @@ a:hover {
 #s2 {
 	top: 160%;
 	height: 115%;
+	max-height: 800px;
 	background-color: #fff;
 }
 
@@ -150,6 +152,7 @@ a:hover {
 #s3 {
 	top:100%;
 	height: 90%;
+	max-height: 800px;
 	background-color: #FF4719;
 }
 
@@ -168,6 +171,7 @@ a:hover {
 #s4 {
 	top:190%;
 	height: 119%;
+	max-height: 900px;
 	background-color: #fff;
 }
 
@@ -192,6 +196,7 @@ a:hover {
 #s5 {
 	top:309%;
 	height:80%;
+	max-height: 800px;
 	background-color:#009933;
 }
 
