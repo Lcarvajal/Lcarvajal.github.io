@@ -17,8 +17,6 @@ header {
 
 #logo {
 	height: 30px;
-	position: absolute;
-	right: 10px;
 }
 
 #expand_nav {
