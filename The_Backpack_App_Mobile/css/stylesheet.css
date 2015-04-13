@@ -92,6 +92,7 @@ header {
 	border-color: #FF9900;
 	border-width: 1px;
 	border-radius: 4px;
+	-webkit-appearance: none;
 }
 
 #description_slide {
