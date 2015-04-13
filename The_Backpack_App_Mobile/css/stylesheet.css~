@@ -76,7 +76,7 @@ header {
 	background-color: #EFD9FF;
 	border: solid;
 	border-radius: 4px;
-	border-width: 1px;
+	border-width: 5px;
 	border-color: #5200A3;
 	color: #000000;
 }
