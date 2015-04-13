@@ -67,7 +67,7 @@ header {
 
 #download_button {
 	position: relative;
-	top: 50px;
+	top: 100px;
 	height: 120px;
 	width: 80%;
 	left: 10%;
@@ -110,25 +110,19 @@ header {
 #account_buttons {
 	position: relative;
 	text-align: center;
-	top: 150px;
+	top: 50px;
 }
 
 #account_buttons button{
 	height: 120px;	
 	width: 39.5%;
+	background-color: #5200A3;
 	border-style: none;
 	-webkit-appearance: none;
 	font-size: 40px;
 	color: #FFFFFF;
 }
 
-#returning_user_button {
-	 background-color: #5200A3;
-}
-
-#new_user_button {
-	background-color: #5C005C;
-}
 
 /* slide 2 styling */
 

@@ -21,7 +21,10 @@
 
 <div id="download_slide">
 	
-	<button id="download_button" type="button">Download Now</button> 
+	<div id="account_buttons">
+		<button id="returning_user_button" type="button">Login</button> 
+		<button id="new_user_button" type="button">New user</button>
+	</div> 
 
 	<div id="info_buttons">
 		<button id="about_button" type="button">About</button>
@@ -29,10 +32,7 @@
 		<button id="schools_button" type="button">Schools</button>
 	</div>
 
-	<div id="account_buttons">
-		<button id="returning_user_button" type="button">Login</button> 
-		<button id="new_user_button" type="button">Create an Account</button>
-	</div>
+		<button id="download_button" type="button">Download Now</button>
 
 </div>
 
