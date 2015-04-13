@@ -2,6 +2,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+/* header styling */
+
 header {
 	position: fixed;
 	top: 0px;
@@ -18,10 +20,6 @@ header {
 
 #logo {
 	height: 100%;
-/*	position: absolute;
-	right: 10px;
-	top: 15px; */
-
 	position: relative;
 	margin: 0 auto;
 }
@@ -33,6 +31,8 @@ header {
 	top: 15px;
 }
 
+/* slide styling */
+
 #slides {
 	position: absolute;
 	top: 130px;
@@ -41,9 +41,11 @@ header {
 	width: 100%;
 }
 
+/* slide 1 styling */
+
 #download_slide {
 	position: relative;
-	height: 1000px;
+	height: 850px;
 	width: 100%;
 	background-color: #FFFFFF;
 	border-bottom-style: solid;
@@ -113,6 +115,43 @@ header {
 	font-size: 70px;
 	color: #FFFFFF;
 }
+
+#info_buttons {
+	position: relative;
+	top: 130px;
+	text-align: center;
+}
+
+#info_buttons button {
+	height: 120px;	
+	width: 26%;
+	background-color: #FF9900;
+	border-style: solid;
+	-webkit-appearance: none;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+#about_button {
+	border-style:none;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+#faq_button {
+	border-style: none;
+	z-index: 3;
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+#schools_button {
+	border-style:none;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+/* slide 2 styling */
 
 #description_slide {
 	position: relative;
