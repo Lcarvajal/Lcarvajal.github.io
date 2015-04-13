@@ -11,10 +11,6 @@
 
 <header>
 
-<a href="">
-	<img id="expand_nav" src="img/expand_nav.png" alt="expand navigation" />
-</a>
-
 <a href="" >
 <img id="logo" src="img/backpack_logo.png" alt="logo" />
 </a>

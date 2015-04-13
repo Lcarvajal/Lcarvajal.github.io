@@ -43,7 +43,7 @@ header {
 
 #download_slide {
 	position: relative;
-	height: 500px;
+	height: 1000px;
 	width: 100%;
 	background-color: #FFFFFF;
 	border-bottom-style: solid;
@@ -96,6 +96,13 @@ header {
 	border-width: 1px;
 	border-radius: 4px;
 	-webkit-appearance: none;
+}
+
+#download_button {
+	position: relative;
+	height: 200px;
+	width: 85%;
+	left: 10%;
 }
 
 #description_slide {
