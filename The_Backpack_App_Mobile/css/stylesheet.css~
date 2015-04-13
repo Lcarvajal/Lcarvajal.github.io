@@ -60,7 +60,7 @@ header {
 #account_buttons {
 	position: relative;
 	text-align: center;
-	top: 50px;
+	top: 100px;
 }
 
 #account_buttons input{
@@ -69,13 +69,13 @@ header {
 	background-color: #5200A3;
 	border-style: none;
 	-webkit-appearance: none;
-	font-size: 40px;
+	font-size: 60px;
 	color: #FFFFFF;
 }
 
 #download_button {
 	position: relative;
-	top: 100px;
+	top: 150px;
 	height: 150px;
 	width: 80%;
 	left: 10%;
@@ -91,7 +91,7 @@ header {
 
 #info_buttons {
 	position: relative;
-	top: 150px;
+	top: 200px;
 	text-align: center;
 }
 
@@ -101,7 +101,7 @@ header {
 	background-color: #5C005C;
 	border-style: none;
 	-webkit-appearance: none;
-	font-size: 40px;
+	font-size: 60px;
 	color: #FFFFFF;
 }
 
