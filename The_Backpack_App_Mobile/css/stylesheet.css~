@@ -90,7 +90,7 @@ header {
 	height: 120px;
 	font-size: 70px;
 	color: #FFFFFF;
-	background-color: #FF9900;
+	background-color: #5200A3;
 	border-style: none;
 	border-color: #FF9900;
 	border-width: 1px;
@@ -104,13 +104,14 @@ header {
 	height: 120px;
 	width: 80%;
 	left: 10%;
-	background-color: #5200A3;
+	background-color: #FF9900;
 	border-style: none;
 	border-color: #FF9900;
 	border-width: 1px;
 	border-radius: 15px;
 	-webkit-appearance: none;
 	font-size: 70px;
+	color: #FFFFFF;
 }
 
 #description_slide {
