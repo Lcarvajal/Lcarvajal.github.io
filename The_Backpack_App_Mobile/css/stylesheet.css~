@@ -13,13 +13,17 @@ header {
 	right:0px;
 	padding: 10px;
 	display: block;
+	width: 100%;
 }
 
 #logo {
 	height: 120px;
-	position: absolute;
+/*	position: absolute;
 	right: 10px;
-	top: 15px;
+	top: 15px; */
+
+	position: relative;
+	margin: 0 auto;
 }
 
 #expand_nav {
@@ -44,7 +48,7 @@ header {
 	background-color: #FFFFFF;
 	border-bottom-style: solid;
 	border-color: #5200A3;
-	border-width: 50px;
+	border-width: 25px;
 }
 
 #intro {

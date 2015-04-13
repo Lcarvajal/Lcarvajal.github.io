@@ -13,13 +13,17 @@ header {
 	right:0px;
 	padding: 10px;
 	display: block;
+	text-align: center;
 }
 
 #logo {
 	height: 120px;
-	position: absolute;
+/*	position: absolute;
 	right: 10px;
-	top: 15px;
+	top: 15px; */
+
+	position: relative;
+	margin: 0 auto;
 }
 
 #expand_nav {
