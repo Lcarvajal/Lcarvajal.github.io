@@ -35,8 +35,15 @@
 		onclick="this.select();" maxlength="15" > <br>
 		<input id="login_button" type="button" onclick="" 
 		value="Login" />
+		<div style="color:#5200A3; font-size:75px; 
+			text-align: center; width:60%; float: right;
+			margin-top:10px;">
+		New user?
+		</div>
 
 	</form>
+
+	<button id="download_button" type="button">Download</button> 
 </div>
 
 <div id="description_slide">
