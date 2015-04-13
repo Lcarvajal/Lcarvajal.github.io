@@ -22,17 +22,33 @@
 <div id="download_slide">
 	
 	<div id="account_buttons">
-		<button id="returning_user_button" type="button">Login</button> 
-		<button id="new_user_button" type="button">New user</button>
-	</div> 
-
-	<div id="info_buttons">
-		<button id="about_button" type="button">About</button>
-		<button id="faq_button" type="button">FAQ</button>
-		<button id="schools_button" type="button">Schools</button>
+		<form action="mobile_login.html" style="display:inline;">
+			<input type="submit" id="returning_user_button" value="Login"> 
+		</form>
+		
+		<form action="mobile_new_account.html" style="display:inline;">
+			<input type="submit" id="new_user_button" value="New user"> 
+		</form>
+		</a>
 	</div>
 
-		<button id="download_button" type="button">Download Now</button>
+	<form action="" style="display:inline;">
+		<input type="submit" id="download_button" value="Download Now"> 
+	</form> 
+
+	<div id="info_buttons">
+	<form action="">
+		<input type="submit" id="about_button" value="About">  
+	</form>
+	<form action="">
+		<input type="submit" id="faq_button" value="FAQ"> 
+	</form>
+	<form action="">
+		<input type="submit" id="schools_button" value="Schools">
+	</form>
+	</div>
+
+	
 
 </div>
 

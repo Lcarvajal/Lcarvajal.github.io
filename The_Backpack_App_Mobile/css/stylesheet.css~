@@ -41,6 +41,10 @@ header {
 	width: 100%;
 }
 
+#slides form{
+	display: inline;
+}
+
 /* slide 1 styling */
 
 #download_slide {
@@ -53,22 +57,26 @@ header {
 	border-width: 25px;
 }
 
-#intro {
+#account_buttons {
 	position: relative;
-	top: 50px;
-	width: 85%;
-	margin: 0 auto;
 	text-align: center;
+	top: 50px;
 }
 
-#intro h2 {
-	font-size: 50px;
+#account_buttons input{
+	height: 150px;	
+	width: 39.5%;
+	background-color: #5200A3;
+	border-style: none;
+	-webkit-appearance: none;
+	font-size: 40px;
+	color: #FFFFFF;
 }
 
 #download_button {
 	position: relative;
 	top: 100px;
-	height: 120px;
+	height: 150px;
 	width: 80%;
 	left: 10%;
 	background-color: #FF9900;
@@ -83,12 +91,12 @@ header {
 
 #info_buttons {
 	position: relative;
-	top: 100px;
+	top: 150px;
 	text-align: center;
 }
 
-#info_buttons button {
-	height: 120px;	
+#info_buttons input {
+	height: 150px;	
 	width: 26%;
 	background-color: #5C005C;
 	border-style: none;
@@ -107,23 +115,6 @@ header {
 	border-bottom-right-radius: 15px;
 }
 
-#account_buttons {
-	position: relative;
-	text-align: center;
-	top: 50px;
-}
-
-#account_buttons button{
-	height: 120px;	
-	width: 39.5%;
-	background-color: #5200A3;
-	border-style: none;
-	-webkit-appearance: none;
-	font-size: 40px;
-	color: #FFFFFF;
-}
-
-
 /* slide 2 styling */
 
 #description_slide {
@@ -132,6 +123,18 @@ header {
 	width: 100%;
 	background-color: #FFFFFF;
 	z-index: -1;
+}
+
+#intro {
+	position: relative;
+	top: 50px;
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#intro h2 {
+	font-size: 50px;
 }
 
 
