@@ -49,7 +49,7 @@ header {
 
 #download_slide {
 	position: relative;
-	height: 770px;
+	height: 750px;
 	width: 100%;
 	background-color: #FFFFFF;
 	border-bottom-style: solid;
@@ -119,10 +119,9 @@ header {
 
 #description_slide {
 	position: relative;
-	height: 100%;
+	height: 600px;
 	width: 100%;
-	background-color: #FFFFFF;
-	z-index: -1;
+	background-color: #5200A3;
 }
 
 #intro {
@@ -147,7 +146,7 @@ header {
 	width: 80%;
 }
 
-.tb {
+#returning_user .tb {
 	height: 100px;
 	width: 100%;
 	font-size: 100px;
@@ -174,4 +173,52 @@ header {
 	border-radius: 15px;
 	-webkit-appearance: none;
 }
+
+/* mobile_new_account stying */
+#new_user {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	top: 150px;
+}
+
+#new_user .tb {
+	height: 120px;
+	font-size: 60px;
+	padding: 5px;
+	margin-bottom: 10px;
+	background-color: #EFD9FF;
+	border: solid;
+	border-radius: 4px;
+	border-width: 1px;
+	border-color: #5200A3;
+	color: #000000;
+}
+
+#new_user .tb2 {
+	width: 100%;
+}
+
+#firstname, #lastname {
+	width: 48%;
+}
+
+#lastname {
+	position: relative;
+	float: right;
+	margin-right: -12px;
+}
+
+#sign_up {
+	width: 40%;
+	height: 120px;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #FF9900;
+	border-style: none;
+	border-color: #FF9900;
+	border-width: 1px;
+	border-radius: 4px;
+}
+
 

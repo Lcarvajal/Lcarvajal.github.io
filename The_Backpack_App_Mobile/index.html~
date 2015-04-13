@@ -22,17 +22,17 @@
 <div id="download_slide">
 	
 	<div id="account_buttons">
-		<form action="mobile_login.html" style="display:inline;">
+		<form action="mobile_login.html">
 			<input type="submit" id="returning_user_button" value="Login"> 
 		</form>
 		
-		<form action="mobile_new_account.html" style="display:inline;">
+		<form action="mobile_new_account.html">
 			<input type="submit" id="new_user_button" value="New user"> 
 		</form>
 		</a>
 	</div>
 
-	<form action="" style="display:inline;">
+	<form action="">
 		<input type="submit" id="download_button" value="Download Now"> 
 	</form> 
 
