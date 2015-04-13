@@ -35,7 +35,7 @@ header {
 
 #slides {
 	position: absolute;
-	top: 120px;
+	top: 130px;
 	left: 0px;
 	height: 100%;
 	width: 100%;
