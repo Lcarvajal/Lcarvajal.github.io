@@ -63,13 +63,12 @@ header {
 	position: relative;
 	top: 50px;
 	margin: 0 auto;
-	width: 90%;
-	text-align: center;
+	width: 80%;
 }
 
 .tb {
 	height: 100px;
-	width: 80%;
+	width: 100%;
 	font-size: 100px;
 	padding: 10px;
 	margin-bottom: 20px;
