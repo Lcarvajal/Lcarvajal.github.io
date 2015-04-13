@@ -50,7 +50,7 @@ header {
 #intro {
 	position: relative;
 	top: 50px;
-	width: 90%;
+	width: 85%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -84,7 +84,7 @@ header {
 	position: relative;
 	width: 40%;
 	height: 120px;
-	font-size: 75px;
+	font-size: 70px;
 	color: #FFFFFF;
 	background-color: #FF9900;
 	border-style: none;

@@ -44,13 +44,13 @@ header {
 	background-color: #FFFFFF;
 	border-bottom-style: solid;
 	border-color: #5200A3;
-	border-width: 50px;
+	border-width: 25px;
 }
 
 #intro {
 	position: relative;
 	top: 50px;
-	width: 90%;
+	width: 85%;
 	margin: 0 auto;
 	text-align: center;
 }

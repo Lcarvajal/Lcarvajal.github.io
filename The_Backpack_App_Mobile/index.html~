@@ -32,7 +32,7 @@
 		enctype="text/plain" onsubmit="return validateUser()">
 
 		<input class="tb" id="username" type="text" 
-		name="username" autocomplete="on" value="email" 
+		name="username" autocomplete="on" value="Email" 
 		onclick="this.select();" maxlength="254" > <br>
 		<input class="tb" id="password" type="password" 
 		name="password" autocomplete="on" value="password" 
