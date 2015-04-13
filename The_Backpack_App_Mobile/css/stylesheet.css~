@@ -97,24 +97,48 @@ header {
 	color: #FFFFFF;
 }
 
-#about_button {
+#about_button, #returning_user_button {
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
 }
 
-#faq_button {
-	margin-left: -5px;
-	margin-right: -5px;
-}
-
-#schools_button {
+#schools_button, #new_user_button {
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 }
 
+#account_buttons {
+	position: relative;
+	text-align: center;
+	top: 100px;
+}
+
+#account_buttons button{
+	height: 120px;	
+	width: 39.5%;
+	background-color: #5C005C;
+	border-style: none;
+	-webkit-appearance: none;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+/* slide 2 styling */
+
+#description_slide {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: #FFFFFF;
+	z-index: -1;
+}
+
+
+/* mobile login styling*/
+
 #returning_user {
 	position: relative;
-	top: 100px;
+	top: 200px;
 	margin: 0 auto;
 	width: 80%;
 }
@@ -145,15 +169,5 @@ header {
 	border-width: 1px;
 	border-radius: 15px;
 	-webkit-appearance: none;
-}
-
-/* slide 2 styling */
-
-#description_slide {
-	position: relative;
-	height: 100%;
-	width: 100%;
-	background-color: #FFFFFF;
-	z-index: -1;
 }
 

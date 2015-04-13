@@ -21,25 +21,6 @@
 
 <div id="download_slide">
 	
-	<form id="returning_user" action="" method="post" 
-		enctype="text/plain" onsubmit="return validateUser()">
-
-		<input class="tb" id="username" type="text" 
-		name="username" autocomplete="on" value="Email" 
-		onclick="this.select();" maxlength="254" > <br>
-		<input class="tb" id="password" type="password" 
-		name="password" autocomplete="on" value="password" 
-		onclick="this.select();" maxlength="15" > <br>
-		<input id="login_button" type="button" onclick="" 
-		value="Login" />
-		<div style="color:#5200A3; font-size:75px; 
-			text-align: center; width:60%; float: right;
-			margin-top:15px;">
-		<a href="" style="text-decoration:none;">New user?</a>
-		</div>
-
-	</form>
-
 	<button id="download_button" type="button">Download Now</button> 
 
 	<div id="info_buttons">
@@ -47,6 +28,12 @@
 		<button id="faq_button" type="button">FAQ</button>
 		<button id="schools_button" type="button">Schools</button>
 	</div>
+
+	<div id="account_buttons">
+		<button id="returning_user_button" type="button">Login</button> 
+		<button id="new_user_button" type="button">Create an Account</button>
+	</div>
+
 </div>
 
 <div id="description_slide">

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The Backpack App - Mobile</title>
+<link rel="stylesheet" href="css/stylesheet.css"/>
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
+<link href='http://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<header>
+
+<a href="" >
+<img id="logo" src="img/backpack_logo.png" alt="logo" />
+</a>
+
+</header>
+
+
+<form id="returning_user" action="" method="post" 
+		enctype="text/plain" onsubmit="return validateUser()">
+
+		<input class="tb" id="username" type="text" 
+		name="username" autocomplete="on" value="Email" 
+		onclick="this.select();" maxlength="254" > <br>
+		<input class="tb" id="password" type="password" 
+		name="password" autocomplete="on" value="password" 
+		onclick="this.select();" maxlength="15" > <br>
+		<input id="login_button" type="button" onclick="" 
+		value="Login" />
+		<div style="color:#5200A3; font-size:75px; 
+			text-align: center; width:60%; float: right;
+			margin-top:15px;">
+		<a href="" style="text-decoration:none;">New user?</a>
+		</div>
+
+</form>
+
+
+</body>
+</html>
