@@ -69,7 +69,7 @@ header {
 	background-color: #5200A3;
 	border-style: none;
 	-webkit-appearance: none;
-	font-size: 60px;
+	font-size: 70px;
 	color: #FFFFFF;
 }
 
@@ -101,7 +101,7 @@ header {
 	background-color: #5C005C;
 	border-style: none;
 	-webkit-appearance: none;
-	font-size: 60px;
+	font-size: 55px;
 	color: #FFFFFF;
 }
 
