@@ -16,10 +16,24 @@
 </a>
 
 <a href="" >
-<img id="logo" src="img/backpack_logo.png" alt="logo" />
+<img id="logo" src="img/backpack.png" alt="logo" />
 </a>
 
 </header>
+
+<div id="download_slide">
+	<div id="intro">
+		<h2>&ldquo;Connecting teachers with parents first through fifth grade.&rdquo;</h2>
+	</div>
+</div>
+
+<div id="description_slide">
+
+</div>
+
+<div id="links_slide">
+	
+</div>
 
 
 </body>
