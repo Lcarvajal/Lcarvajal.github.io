@@ -65,9 +65,56 @@ header {
 	font-size: 50px;
 }
 
-#returning_user {
+#download_button {
 	position: relative;
 	top: 50px;
+	height: 120px;
+	width: 80%;
+	left: 10%;
+	background-color: #FF9900;
+	border-style: none;
+	border-color: #FF9900;
+	border-width: 1px;
+	border-radius: 15px;
+	-webkit-appearance: none;
+	font-size: 70px;
+	color: #FFFFFF;
+}
+
+#info_buttons {
+	position: relative;
+	top: 100px;
+	text-align: center;
+}
+
+#info_buttons button {
+	height: 120px;	
+	width: 26%;
+	background-color: #5C005C;
+	border-style: none;
+	-webkit-appearance: none;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+#about_button {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+#faq_button {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+#schools_button {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+#returning_user {
+	position: relative;
+	top: 200px;
 	margin: 0 auto;
 	width: 80%;
 }
@@ -98,57 +145,6 @@ header {
 	border-width: 1px;
 	border-radius: 15px;
 	-webkit-appearance: none;
-}
-
-#download_button {
-	position: relative;
-	top: 100px;
-	height: 120px;
-	width: 80%;
-	left: 10%;
-	background-color: #FF9900;
-	border-style: none;
-	border-color: #FF9900;
-	border-width: 1px;
-	border-radius: 15px;
-	-webkit-appearance: none;
-	font-size: 70px;
-	color: #FFFFFF;
-}
-
-#info_buttons {
-	position: relative;
-	top: 130px;
-	text-align: center;
-}
-
-#info_buttons button {
-	height: 120px;	
-	width: 26%;
-	background-color: #5C005C;
-	border-style: solid;
-	-webkit-appearance: none;
-	font-size: 40px;
-	color: #FFFFFF;
-}
-
-#about_button {
-	border-style:none;
-	border-top-left-radius: 15px;
-	border-bottom-left-radius: 15px;
-}
-
-#faq_button {
-	border-style: none;
-	z-index: 3;
-	margin-left: -5px;
-	margin-right: -5px;
-}
-
-#schools_button {
-	border-style:none;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
 }
 
 /* slide 2 styling */
