@@ -8,7 +8,7 @@ header {
 	left: 0px;
 	background-color: #5200A3;
 	z-index: 2;
-	height: 120px;
+	height: 130px;
 	left:0px;
 	right:0px;
 	padding: 10px;
@@ -17,7 +17,7 @@ header {
 }
 
 #logo {
-	height: 120px;
+	height: 100%;
 /*	position: absolute;
 	right: 10px;
 	top: 15px; */
@@ -35,7 +35,7 @@ header {
 
 #slides {
 	position: absolute;
-	top: 120px;
+	top: 130px;
 	left: 0px;
 	height: 100%;
 	width: 100%;
