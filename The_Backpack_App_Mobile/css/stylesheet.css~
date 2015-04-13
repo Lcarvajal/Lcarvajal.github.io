@@ -19,14 +19,14 @@ header {
 	height: 120px;
 	position: absolute;
 	right: 10px;
+	top: 15px;
 }
 
 #expand_nav {
 	height: 90px;
 	left: 15px;
 	position: relative;
-	top:50%;
-	transform: translateY(-50%);
+	top: 15px;
 }
 
 #slides {
@@ -56,7 +56,29 @@ header {
 }
 
 #intro h2 {
-	font-size: 60px;
+	font-size: 50px;
+}
+
+#returning_user {
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+
+.tb {
+	height: 50px;
+	width: 100%;
+	font-size: 50px;
+	padding: 10px;
+}
+
+#login_button {
+	position: relative;
+	width: 50%;
+	height: 70px;
+	font-size: 45px;
 }
 
 #description_slide {

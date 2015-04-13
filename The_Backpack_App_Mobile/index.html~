@@ -21,9 +21,27 @@
 
 </header>
 
+<div id="slides">
+
 <div id="download_slide">
 	<div id="intro">
 		<h2>&ldquo;Connecting teachers with parents first through fifth grade.&rdquo;</h2>
+	</div>
+
+	<div id="returning_user">
+		<form id="returning_user" action="" method="post" 
+		enctype="text/plain" onsubmit="return validateUser()">
+
+		<input class="tb" id="username" type="text" 
+		name="username" autocomplete="on" value="email" 
+		onclick="this.select();" maxlength="254" > <br>
+		<input class="tb" id="password" type="password" 
+		name="password" autocomplete="on" value="password" 
+		onclick="this.select();" maxlength="15" > <br>
+		<input id="login_button" type="button" onclick="" 
+		value="Login" />
+
+		</form>
 	</div>
 </div>
 
@@ -35,6 +53,7 @@
 	
 </div>
 
+</div>
 
 </body>
 </html>
