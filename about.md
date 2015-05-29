@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+With one year of mathematics at the [Free University of Berlin](https://en.wikipedia.org/wiki/Free_University_Berlin) and two years of economics and computer science at [Florida State](https://en.wikipedia.org/wiki/Florida_State_University], I am ready to work on the coolest mobile apps that are solving problems in education, health, and limited internet.
 
-### More Information
+### The Backstory
 
-A place to include any other types of information that you'd like to include about yourself.
+I love soccer, triathlon, piano!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[lukascarvajal@gmail.com](mailto:lukascarvajal@gmail.com)

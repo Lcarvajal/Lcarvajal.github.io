@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lukas Carvajal</title>
+    <description>Android, iOS, and Ruby on Rails Developer</description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>First blog post!</title>
+        <description>&lt;p&gt;Just got a couple sites up and running, including this blog on github. I am using &lt;a href=&quot;https://neocities.org&quot;&gt;neocities&lt;/a&gt; to build awesome websites that use html, css, and javascript, which is enough to display information and build a presence on the web. Hosting is free, so pretty much the only yearly cost for these sites are domain name fees. Checkout my page for &lt;a href=&quot;https://lukascarvajal.neocities.org&quot;&gt;my services&lt;/a&gt;! &lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Mar 2014 00:00:00 -0500</pubDate>
+        <link>/Hello-World/</link>
+        <guid isPermaLink="true">/Hello-World/</guid>
+      </item>
+    
+  </channel>
+</rss>
