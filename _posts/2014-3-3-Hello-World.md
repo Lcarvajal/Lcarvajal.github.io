@@ -1,10 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: First blog post!
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Just got a couple sites up and running, including this blog on github. I am using [neocities](https://www.neocities.org) to build awesome websites that use html, css, and javascript, which is enough to display information and build a presence on the web. Hosting is free, so pretty much the only yearly cost for these sites are domain name fees. Checkout my page for [my services](https://www.lukascarvajal.neocities.org)! 
