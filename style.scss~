@@ -156,7 +156,8 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-style: inset;
+  border-bottom: 1px solid $darkBlue;
 
   @include mobile {
     text-align: center;
@@ -232,7 +233,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $red;
     }
   }
 }
@@ -273,8 +274,8 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid $green;
+  border-bottom: 1px solid $green;
   background-color: $darkBlue;
 }
 
