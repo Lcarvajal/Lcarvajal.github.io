@@ -115,12 +115,12 @@ p {
 }
 
 a {
-  color: #00FF00;
+  color: #0099FF;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover, a:active {
-  color: #00FF00;
+  color: #0099FF;
 }
 
 ul, ol {
@@ -275,7 +275,7 @@ nav a {
 @media screen and (max-width: 640px) {
   nav a {
     margin: 0 10px;
-    color: #00FF00;
+    color: #0099FF;
   }
 }
 
@@ -307,8 +307,8 @@ nav a {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #00FF00;
+  border-bottom: 1px solid #00FF00;
   background-color: #001238;
 }
 
