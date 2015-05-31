@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
 
@@ -22,7 +22,7 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{site.avatar}}" /></a>
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
@@ -31,7 +31,7 @@
 
           <nav>
 		<a href="https://lukascarvajal.neocities.org">Freelance</a>
-            <a href="{{ site.baseurl }}/" >Blog</a>
+            <a href="{{ site.baseurl }}/blog" >Blog</a>
             <a href="{{ site.baseurl }}/about" >About</a>
           </nav>
         </header>
