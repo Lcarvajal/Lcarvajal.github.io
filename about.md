@@ -4,9 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-<div class="container-fluid" style="text-align: center; width:100%;">
-	<img class="img-responsive" src="../images/me.png" alt="me" style="max-width: 300px;" />
-</div>
+<img class="img-responsive" src="../images/me.png" alt="me" style="max-width: 200px;" />
 
 With one year of mathematics at the <a href="https://en.wikipedia.org/wiki/Free_University_Berlin" target="_blank">Free University of Berlin</a> and two years of economics and computer science at <a href="https://en.wikipedia.org/wiki/Florida_State_University" target="_blank">Florida State</a>, I am ready to work on cool mobile apps that solve problems in education, health, and limited internet.
 
