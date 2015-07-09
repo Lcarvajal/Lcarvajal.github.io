@@ -6,7 +6,7 @@ The reason IO operator overloads can’t be written as member functions lies in 
 This means they need to take two operands in order to perform. 
 Let’s look at an example of a simple output statement to better explain this property:
 
-cout << “Hello “ << “world! “ << “Yay!”;
+cout << <q>Hello </q> << <q>world! </q> << <q>Yay!</q>;
 
 In this example, the first step a compiler takes in computing this is by first executing
 
