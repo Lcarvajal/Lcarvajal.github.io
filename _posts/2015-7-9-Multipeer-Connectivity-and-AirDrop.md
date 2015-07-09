@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Multipeer Connectivity and AirDrop
+title: Multipeer Connectivity and AirDrop (iOS)
 ---
 The Multipeer Connectivity Framework is designed to provide an abstract layer for developers to take advantage of the iPhone’s mobile ad hoc Wi-Fi, traditional infrastructure Wi-Fi,  and Bluetooth personal area networking capabilities. 
 By being able to send data through ad hoc Wi-Fi networks and Bluetooth, iPhones can communicate directly with other iPhones and mac computers without first sending data to a wireless access point (like a router). 
