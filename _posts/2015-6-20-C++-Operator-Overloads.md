@@ -6,11 +6,11 @@ The reason IO operator overloads can’t be written as member functions lies in 
 This means they need to take two operands in order to perform. 
 Let’s look at an example of a simple output statement to better explain this property:
 
-cout  &lt&lt <q>Hello </q> &lt&lt “world!“  &lt&lt “Yay!“;
+cout  << “Hello “ << “world!“  << “Yay!“;
 
 In this example, the first step a compiler takes in computing this is by first executing
 
-cout << H“ello “;
+cout << “Hello “;
 
 Here cout serves as the l-value and “Hello “ serves as the r-value. Hence the binary operation. 
 The compiler then stores “Hello “ into the cout and does the operation again with the next operand:
