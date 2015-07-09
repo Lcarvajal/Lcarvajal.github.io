@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why can't IO operator overloads be written as member functions?
+title: Why can IO operator overloads not be written as member functions?
 ---
 The reason IO operator overloads can’t be written as member functions lies in their binary property. 
 This means they need to take two operands in order to perform. 
