@@ -50,7 +50,7 @@ Let’s look at an example of a simple output statement to better explain this p
           </div>
 
           <nav>
-		<a href="https://lukascarvajal.neocities.org" >Freelance</a>
+		<a href="/freelance" >Freelance</a>
             <a href="/blog" >Blog</a>
             <a href="../Resume-iOS-Lukas-Carvajal.pdf" target="_blank">CV</a>
             <a href="/about" >About</a>
@@ -68,31 +68,31 @@ Let’s look at an example of a simple output statement to better explain this p
 This means they need to take two operands in order to perform. 
 Let’s look at an example of a simple output statement to better explain this property:</p>
 
-<p>cout  &lt;&lt; “Hello ” &lt;&lt; “world!”  &lt;&lt; “Yay!”;</p>
+<p><code>cout  &lt;&lt; “Hello ” &lt;&lt; “world!”  &lt;&lt; “Yay!”;</code></p>
 
 <p>In this example, the first step a compiler takes in computing this is by first executing</p>
 
-<p>cout &lt;&lt; “Hello ”;</p>
+<p><code>cout &lt;&lt; “Hello ”;</code></p>
 
 <p>Here cout serves as the l-value and “Hello “ serves as the r-value. Hence the binary operation. 
 The compiler then stores “Hello “ into the cout and does the operation again with the next operand:</p>
 
-<p>cout &lt;&lt; “world! ”;    // where cout contains “Hello ”</p>
+<p><code>cout &lt;&lt; “world! ”;    // where cout contains “Hello ”</code></p>
 
 <p>then the next</p>
 
-<p>cout &lt;&lt; “Yay!”;    // where cout contains “Hello World!”</p>
+<p><code>cout &lt;&lt; “Yay!”;    // where cout contains “Hello World!”</code></p>
 
 <p>Finally, we reach a point where cout contains the entire line of code and the program displays:</p>
 
-<p>Hello World! Yay!</p>
+<p><code>Hello World! Yay!</code></p>
 
 <p>Note that cout is of type ostream, so whenever using the &lt;&lt; operator, C++ takes an l-value of type ostream and an r-value of whatever type is being displayed (string in the above example). 
 If we were to write the &lt;&lt; operator as a member function, we would have an object from the created class as the calling object and ostream as the parameter we are passing. 
 Using cout  as an r-value. 
 This creates a problem, because we have taken away this recursive property of the &lt;&lt; operator and so we would not be able to use the object like in the example above. For example:</p>
 
-<p>cout &lt;&lt; “Hello ” &lt;&lt; <object> &lt;&lt; “lalala”;</p>
+<p><code>cout &lt;&lt; “Hello ” &lt;&lt; &lt;object&gt; &lt;&lt; “lalala”;</code></p>
 
 <p>would not work. Because of this, we write the IO operator overloads as friend functions so that we can have an l-value of type ostream and an r-value of the class type. We also pass the two by reference to hold that recursive property.</p>
 
