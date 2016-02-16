@@ -2,15 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lukas Carvajal</title>
-    <description>Android, iOS, and Ruby on Rails Developer</description>
+    <description>Mobile Developer</description>
     <link>http://lcarvajal.github.io/</link>
     <atom:link href="http://lcarvajal.github.io//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>First blog post!</title>
-        <description>&lt;p&gt;Just got a couple sites up and running, including this blog on github. I am using &lt;a href=&quot;https://neocities.org&quot;&gt;neocities&lt;/a&gt; to build awesome websites that use html, css, and javascript, which is enough to display information and build a presence on the web. Hosting is free, so pretty much the only yearly cost for these sites are domain name fees. Check out my page for &lt;a href=&quot;https://lukascarvajal.neocities.org&quot;&gt;my services&lt;/a&gt;! &lt;/p&gt;
+        <title>Multipeer Connectivity and AirDrop (iOS)</title>
+        <description>&lt;p&gt;The Multipeer Connectivity Framework is designed to provide an abstract layer for developers to take advantage of the iPhone’s mobile ad hoc Wi-Fi, traditional infrastructure Wi-Fi,  and Bluetooth personal area networking capabilities. 
+By being able to send data through ad hoc Wi-Fi networks and Bluetooth, iPhones can communicate directly with other iPhones and mac computers without first sending data to a wireless access point (like a router). 
+For example, one device with only Bluetooth on can communicate with another device with only Wi-Fi on, if the two devices send data through a third device with both Wi-Fi and Bluetooth enabled.&lt;/p&gt;
+
+&lt;p&gt;Apple makes use of these same networking capabilities in AirDrop; a feature of iPhones and macs that allows users to send anything iPhones store on their Share sheet (ex. photos, videos, contacts, etc.) to other iPhone and mac devices, even without connecting to the internet. 
+What makes AirDrop particularly powerful is its ability to take advantage of Bluetooth and Wi-Fi. AirDrop uses Bluetooth to broadcast, discover, and negotiate connections to other devices and Wi-Fi to actually transfer the data between devices.&lt;/p&gt;
+
+&lt;p&gt;Bluetooth uses much less power than Wi-Fi to search, broadcast, and connect to other devices, making it a very useful tool to perform these functions. 
+The downside to bluetooth is that it takes significantly longer to transfer data than Wi-Fi. 
+AirDrop, therefore, uses the networking capabilities of the devices it runs on to optimize performance by using the best of both worlds; searching, broadcasting, and connecting to devices through bluetooth, establishing a Wi-Fi connection with the another device, and transferring data through that Wi-Fi connection. &lt;/p&gt;
+
+&lt;p&gt;While AirDrop and the MC Framework use the same underlying technology, AirDrop can only handle peer-to-peer connections, while apps running on the MC Framework have the ability to send data to multiple devices (hence ‘Multipeer’). 
+AirDrop makes use of both Wi-Fi and bluetooth, so both must be enabled on two devices for those devices to communicate with each other. 
+Additionally, due to the complexity and constant changing of connections in ad hoc networks, AirDrop only allow users to share data with one device at a time. 
+This ensures a user’s data is transferred to the other device as fast and as safe as possible (AirDrop encrypts data, making it even safer than sending emails which would go through a wireless access point). 
+This is significantly different than a multi-peer network.&lt;/p&gt;
+
+&lt;p&gt;A multi-peer network allows multiple users to communicate with one another all at the same time. 
+This makes transferring data to devices more difficult, since devices are constantly entering and leaving the ad hoc network. 
+It also makes data less safe, since data is now being transferred through multiple devices. 
+It does, however, provide a network for interesting apps to take advantage of. 
+FireChat, for example, uses the MC Framework to allow users to communicate with one another in a chat room solely through the ad hoc network. 
+This means users can chat with multiple devices simultaneously, even without an internet connection. &lt;/p&gt;
 </description>
-        <pubDate>Mon, 03 Mar 2014 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 09 Jul 2015 00:00:00 -0500</pubDate>
+        <link>http://lcarvajal.github.io//Multipeer-Connectivity-and-AirDrop/</link>
+        <guid isPermaLink="true">http://lcarvajal.github.io//Multipeer-Connectivity-and-AirDrop/</guid>
+      </item>
+    
+      <item>
+        <title>Why can IO operator overloads not be written as member functions? (C++)</title>
+        <description>&lt;p&gt;The reason IO operator overloads can’t be written as member functions lies in their binary property. 
+This means they need to take two operands in order to perform. 
+Let’s look at an example of a simple output statement to better explain this property:&lt;/p&gt;
+
+&lt;p&gt;cout  &amp;lt;&amp;lt; “Hello ” &amp;lt;&amp;lt; “world!”  &amp;lt;&amp;lt; “Yay!”;&lt;/p&gt;
+
+&lt;p&gt;In this example, the first step a compiler takes in computing this is by first executing&lt;/p&gt;
+
+&lt;p&gt;cout &amp;lt;&amp;lt; “Hello ”;&lt;/p&gt;
+
+&lt;p&gt;Here cout serves as the l-value and “Hello “ serves as the r-value. Hence the binary operation. 
+The compiler then stores “Hello “ into the cout and does the operation again with the next operand:&lt;/p&gt;
+
+&lt;p&gt;cout &amp;lt;&amp;lt; “world! ”;    // where cout contains “Hello ”&lt;/p&gt;
+
+&lt;p&gt;then the next&lt;/p&gt;
+
+&lt;p&gt;cout &amp;lt;&amp;lt; “Yay!”;    // where cout contains “Hello World!”&lt;/p&gt;
+
+&lt;p&gt;Finally, we reach a point where cout contains the entire line of code and the program displays:&lt;/p&gt;
+
+&lt;p&gt;Hello World! Yay!&lt;/p&gt;
+
+&lt;p&gt;Note that cout is of type ostream, so whenever using the &amp;lt;&amp;lt; operator, C++ takes an l-value of type ostream and an r-value of whatever type is being displayed (string in the above example). 
+If we were to write the &amp;lt;&amp;lt; operator as a member function, we would have an object from the created class as the calling object and ostream as the parameter we are passing. 
+Using cout  as an r-value. 
+This creates a problem, because we have taken away this recursive property of the &amp;lt;&amp;lt; operator and so we would not be able to use the object like in the example above. For example:&lt;/p&gt;
+
+&lt;p&gt;cout &amp;lt;&amp;lt; “Hello ” &amp;lt;&amp;lt; &lt;object&gt; &amp;lt;&amp;lt; “lalala”;&lt;/p&gt;
+
+&lt;p&gt;would not work. Because of this, we write the IO operator overloads as friend functions so that we can have an l-value of type ostream and an r-value of the class type. We also pass the two by reference to hold that recursive property.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 20 Jun 2015 00:00:00 -0500</pubDate>
+        <link>http://lcarvajal.github.io//C++-Operator-Overloads/</link>
+        <guid isPermaLink="true">http://lcarvajal.github.io//C++-Operator-Overloads/</guid>
+      </item>
+    
+      <item>
+        <title>First blog post!</title>
+        <description>&lt;p&gt;Just got a couple sites up and running, including this blog on github. I am using Amazon s3 to host awesome websites that use html, css, and javascript, which is enough to display information and build a presence on the web. Check out my page to see &lt;a href=&quot;https://lukascarvajal.neocities.org&quot;&gt;my sites and mobile apps&lt;/a&gt;! &lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 Jun 2015 00:00:00 -0500</pubDate>
         <link>http://lcarvajal.github.io//Hello-World/</link>
         <guid isPermaLink="true">http://lcarvajal.github.io//Hello-World/</guid>
       </item>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Multipeer Connectivity and AirDrop (iOS) | Lukas Carvajal</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="The Multipeer Connectivity Framework is designed to provide an abstract layer for developers to take advantage of the iPhone’s mobile ad hoc Wi-Fi, traditional infrastructure Wi-Fi,  and Bluetooth personal area networking capabilities. 
+By being able to send data through ad hoc Wi-Fi networks and Bluetooth, iPhones can communicate directly with other iPhones and mac computers without first sending data to a wireless access point (like a router). 
+For example, one device with only Bluetooth on can communicate with another device with only Wi-Fi on, if the two devices send data through a third device with both Wi-Fi and Bluetooth enabled.
+" />
+    <meta property="og:description" content="The Multipeer Connectivity Framework is designed to provide an abstract layer for developers to take advantage of the iPhone’s mobile ad hoc Wi-Fi, traditional infrastructure Wi-Fi,  and Bluetooth personal area networking capabilities. 
+By being able to send data through ad hoc Wi-Fi networks and Bluetooth, iPhones can communicate directly with other iPhones and mac computers without first sending data to a wireless access point (like a router). 
+For example, one device with only Bluetooth on can communicate with another device with only Wi-Fi on, if the two devices send data through a third device with both Wi-Fi and Bluetooth enabled.
+" />
+    
+    <meta name="author" content="Lukas Carvajal" />
+
+    
+    <meta property="og:title" content="Multipeer Connectivity and AirDrop (iOS)" />
+    <meta property="twitter:title" content="Multipeer Connectivity and AirDrop (iOS)" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Lukas Carvajal - Mobile Developer" href="/feed.xml" />
+
+	<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="http://lcarvajal.github.io/images/jekyll-logo.png" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Lukas Carvajal</a></h1>
+            <p class="site-description">Mobile Developer</p>
+          </div>
+
+          <nav>
+		<a href="https://lukascarvajal.neocities.org" >Freelance</a>
+            <a href="/blog" >Blog</a>
+            <a href="../Resume-iOS-Lukas-Carvajal.pdf" target="_blank">CV</a>
+            <a href="/about" >About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Multipeer Connectivity and AirDrop (iOS)</h1>
+
+  <div class="entry">
+    <p>The Multipeer Connectivity Framework is designed to provide an abstract layer for developers to take advantage of the iPhone’s mobile ad hoc Wi-Fi, traditional infrastructure Wi-Fi,  and Bluetooth personal area networking capabilities. 
+By being able to send data through ad hoc Wi-Fi networks and Bluetooth, iPhones can communicate directly with other iPhones and mac computers without first sending data to a wireless access point (like a router). 
+For example, one device with only Bluetooth on can communicate with another device with only Wi-Fi on, if the two devices send data through a third device with both Wi-Fi and Bluetooth enabled.</p>
+
+<p>Apple makes use of these same networking capabilities in AirDrop; a feature of iPhones and macs that allows users to send anything iPhones store on their Share sheet (ex. photos, videos, contacts, etc.) to other iPhone and mac devices, even without connecting to the internet. 
+What makes AirDrop particularly powerful is its ability to take advantage of Bluetooth and Wi-Fi. AirDrop uses Bluetooth to broadcast, discover, and negotiate connections to other devices and Wi-Fi to actually transfer the data between devices.</p>
+
+<p>Bluetooth uses much less power than Wi-Fi to search, broadcast, and connect to other devices, making it a very useful tool to perform these functions. 
+The downside to bluetooth is that it takes significantly longer to transfer data than Wi-Fi. 
+AirDrop, therefore, uses the networking capabilities of the devices it runs on to optimize performance by using the best of both worlds; searching, broadcasting, and connecting to devices through bluetooth, establishing a Wi-Fi connection with the another device, and transferring data through that Wi-Fi connection. </p>
+
+<p>While AirDrop and the MC Framework use the same underlying technology, AirDrop can only handle peer-to-peer connections, while apps running on the MC Framework have the ability to send data to multiple devices (hence ‘Multipeer’). 
+AirDrop makes use of both Wi-Fi and bluetooth, so both must be enabled on two devices for those devices to communicate with each other. 
+Additionally, due to the complexity and constant changing of connections in ad hoc networks, AirDrop only allow users to share data with one device at a time. 
+This ensures a user’s data is transferred to the other device as fast and as safe as possible (AirDrop encrypts data, making it even safer than sending emails which would go through a wireless access point). 
+This is significantly different than a multi-peer network.</p>
+
+<p>A multi-peer network allows multiple users to communicate with one another all at the same time. 
+This makes transferring data to devices more difficult, since devices are constantly entering and leaving the ad hoc network. 
+It also makes data less safe, since data is now being transferred through multiple devices. 
+It does, however, provide a network for interesting apps to take advantage of. 
+FireChat, for example, uses the MC Framework to allow users to communicate with one another in a chat room solely through the ad hoc network. 
+This means users can chat with multiple devices simultaneously, even without an internet connection. </p>
+
+  </div>
+
+  <div class="date">
+    Written on July  9, 2015
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:lukascarvajal@gmail.com"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/lcarvajal"><i class="svg-icon github"></i></a>
+
+<a href="https://www.linkedin.com/in/lukascarvajal"><i class="svg-icon linkedin"></i></a>
+
+
+
+<a href="http://stackoverflow.com/fluke_of_luke"><i class="svg-icon stackoverflow"></i></a>
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>

@@ -1,6 +1,34 @@
-### My personal page
-[by Lukas Carvajal](http://lukascarvajal.com)
+#Lukas Carvajal's Personal Website
 
-My site is used to display some information about me, while also providing links to view projects, my resume, and even more info about me! I am also keeping my blog on there.
+##Summary
 
-Currently the site uses Jekyll to maintain my blog, bootstrap to give it a good look, and rails to build the entire site.
+A website containing past freelance projects, a blog, and an about me section for Lukas Carvajal.
+
+##Cloning Instructions
+
+Clone the website onto your local drive with:
+ `git clone https://github.com/Lcarvajal/Lcarvajal.github.io.git`
+
+##Current Status
+
+Working on showing Tip Yourself and Fraze Frame projects that were recently launched in the App Store.
+
+##Authors
+
+* [Lukas Carvajal](http://lukascarvajal.com)
+
+##Dependencies
+
+* [Jekyll](http://jekyllrb.com/docs/home/) powers the blog and website.
+
+##Build Instructions
+
+Ensure that you have jekyll installed and then run the site on your computer with:
+
+```
+gem install jekyll
+bundle install
+jekyll serve
+
+```
+The site will be available on [http://localhost:4000](http://localhost:4000).
