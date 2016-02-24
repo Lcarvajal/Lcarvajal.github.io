@@ -43,31 +43,31 @@ This means users can chat with multiple devices simultaneously, even without an 
 This means they need to take two operands in order to perform. 
 Let’s look at an example of a simple output statement to better explain this property:&lt;/p&gt;
 
-&lt;p&gt;cout  &amp;lt;&amp;lt; “Hello ” &amp;lt;&amp;lt; “world!”  &amp;lt;&amp;lt; “Yay!”;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cout  &amp;lt;&amp;lt; “Hello ” &amp;lt;&amp;lt; “world!”  &amp;lt;&amp;lt; “Yay!”;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;In this example, the first step a compiler takes in computing this is by first executing&lt;/p&gt;
 
-&lt;p&gt;cout &amp;lt;&amp;lt; “Hello ”;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cout &amp;lt;&amp;lt; “Hello ”;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Here cout serves as the l-value and “Hello “ serves as the r-value. Hence the binary operation. 
 The compiler then stores “Hello “ into the cout and does the operation again with the next operand:&lt;/p&gt;
 
-&lt;p&gt;cout &amp;lt;&amp;lt; “world! ”;    // where cout contains “Hello ”&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cout &amp;lt;&amp;lt; “world! ”;    // where cout contains “Hello ”&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;then the next&lt;/p&gt;
 
-&lt;p&gt;cout &amp;lt;&amp;lt; “Yay!”;    // where cout contains “Hello World!”&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cout &amp;lt;&amp;lt; “Yay!”;    // where cout contains “Hello World!”&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Finally, we reach a point where cout contains the entire line of code and the program displays:&lt;/p&gt;
 
-&lt;p&gt;Hello World! Yay!&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Hello World! Yay!&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Note that cout is of type ostream, so whenever using the &amp;lt;&amp;lt; operator, C++ takes an l-value of type ostream and an r-value of whatever type is being displayed (string in the above example). 
 If we were to write the &amp;lt;&amp;lt; operator as a member function, we would have an object from the created class as the calling object and ostream as the parameter we are passing. 
 Using cout  as an r-value. 
 This creates a problem, because we have taken away this recursive property of the &amp;lt;&amp;lt; operator and so we would not be able to use the object like in the example above. For example:&lt;/p&gt;
 
-&lt;p&gt;cout &amp;lt;&amp;lt; “Hello ” &amp;lt;&amp;lt; &lt;object&gt; &amp;lt;&amp;lt; “lalala”;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cout &amp;lt;&amp;lt; “Hello ” &amp;lt;&amp;lt; &amp;lt;object&amp;gt; &amp;lt;&amp;lt; “lalala”;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;would not work. Because of this, we write the IO operator overloads as friend functions so that we can have an l-value of type ostream and an r-value of the class type. We also pass the two by reference to hold that recursive property.&lt;/p&gt;
 </description>
