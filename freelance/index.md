@@ -58,7 +58,6 @@ Fraze Frame is the photo sharing competition for college students. Users can upv
 
 ##My Roles
 * iOS developer
-* Android developer
 
 ##Key Features Built
 * Launched first version on App Store
