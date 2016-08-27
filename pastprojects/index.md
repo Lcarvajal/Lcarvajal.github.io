@@ -58,6 +58,7 @@ Fraze Frame is the photo sharing competition for college students. Users can upv
 
 ##My Roles
 * iOS developer
+* Android developer
 
 ##Key Features Built
 * Launched first version on App Store
@@ -75,6 +76,36 @@ Fraze Frame is the photo sharing competition for college students. Users can upv
 	<img src="../images/fraze_frame_screenshot_1.PNG" style="width:30%;" />
 	<img src="../images/fraze_frame_screenshot_2.PNG" style="width:30%; margin-left:3%; margin-right: 3%;" />
 	<img src="../images/fraze_frame_screenshot_3.PNG" style="width:30%;" />
+</div>
+
+<br>
+
+---
+
+<br>
+
+<a href="https://geo.itunes.apple.com/us/app/fraze-frame-photo-competition/id1054162925?mt=8" target="_blank">
+	<img src="../images/news_hack_app_logo.png" class="app-logo full-width img-responsive app-logo-bordered" />
+</a>
+
+#News Hack - iOS and Android
+News Hack is lets users view The New York Times, The Wall Street Journal, and USAToday articles for free and without reading limits. Check out the <a href="https://lcarvajal.github.io/News-Hack/" target="_blank">website</a>!
+
+##My Roles
+* iOS developer
+* Android developer
+* LAMP stack developer
+
+##Key Features Built
+* LAMP backend hosted on Bitnami that scrapes news sites for titles, authors, and urls. It also made calls to NYTimes and USAToday apis.
+* Fast inferaces for browsing news articles for free on Android and iOS.
+
+<br>
+
+<div style="text-align:center; margin: 0 auto;">
+	<img src="../images/news_hack_android_screen_shot.png" style="width:30%;" />
+	<img src="../images/news_hack_screen_shot.png" style="width:30%; margin-left:3%; margin-right: 3%;" />
+	<img src="../images/news_hack_iPhone.png" style="width:30%;" />
 </div>
 
 <br>
