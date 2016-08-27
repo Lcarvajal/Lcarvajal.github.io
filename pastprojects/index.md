@@ -17,14 +17,14 @@ Scroll down to check out the awesome apps I've worked on!<br>
 	<img src="../images/tip_yourself_app_logo.jpg" class="app-logo full-width img-responsive" />
 </a>
 
-#Tip Yourself - iOS
+# Tip Yourself - iOS
 Tip Yourself encourages good habits while preparing you financially for your future. By linking your checking account to your tip jar, you can quickly reward yourself for doing something great. In the past, users have given themselves tip for going another day without smoking, working out, and saving money. Check out the other awesome tips people are leaving on <a href="https://itunes.apple.com/us/app/tip-yourself-save-money-build/id987961939?mt=8" target="_blank">Tip Yourself for iOS</a>!
 
-##My Roles
+## My Roles
 * iOS developer
 * Ruby on Rails developer
 
-##Key Features Built
+## Key Features Built
 * Launched first version on App Store
 * Push notifications and notification settings
 * Redesigned and rebuilt entire onboarding process
@@ -53,14 +53,14 @@ Tip Yourself encourages good habits while preparing you financially for your fut
 	<img src="../images/fraze_frame_app_logo.jpg" class="app-logo full-width img-responsive app-logo-bordered" />
 </a>
 
-#Fraze Frame - iOS and Android
+# Fraze Frame - iOS and Android
 Fraze Frame is the photo sharing competition for college students. Users can upvote and downvote photos in competitions and win prizes. Check out some of its cool photos on the <a href="https://geo.itunes.apple.com/us/app/fraze-frame-photo-competition/id1054162925?mt=8" target="_blank">iOS App</a>!
 
-##My Roles
+## My Roles
 * iOS developer
 * Android developer
 
-##Key Features Built
+## Key Features Built
 * Launched first version on App Store
 * Login and sign up
 * Viewing photos and competitions interface
@@ -88,15 +88,15 @@ Fraze Frame is the photo sharing competition for college students. Users can upv
 	<img src="../images/news_hack_app_logo.png" class="app-logo full-width img-responsive app-logo-bordered" />
 </a>
 
-#News Hack - iOS and Android
+# News Hack - iOS and Android
 News Hack is lets users view The New York Times, The Wall Street Journal, and USAToday articles for free and without reading limits. Check out the <a href="https://lcarvajal.github.io/News-Hack/" target="_blank">website</a>!
 
-##My Roles
+## My Roles
 * iOS developer
 * Android developer
 * LAMP stack developer
 
-##Key Features Built
+## Key Features Built
 * LAMP backend hosted on Bitnami that scrapes news sites for titles, authors, and urls. It also made calls to NYTimes and USAToday apis.
 * Fast inferaces for browsing news articles for free on Android and iOS.
 
