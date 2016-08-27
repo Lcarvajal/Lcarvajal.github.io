@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Freelance Apps
-permalink: /freelance/
+title: Past Projects
+permalink: /pastprojects/
 ---
 
 
